@@ -5,10 +5,11 @@
 		<link rel="stylesheet" href="styles.css">
 		<script src="processing.min.js"></script>
 		<script>
-		var c= document.getElementById("game");
-			console.log(c);
-		c.attr("tabindex", "0");
-		c.attr("contentEditable", "true");
+		window.onload = function() {
+			var c = document.getElementById("game");
+			c.attr("tabindex", "0");
+			c.attr("contentEditable", "true");
+		}
 		</script>
 	</head>
 	<body>
